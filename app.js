@@ -1,3 +1,4 @@
 alert ("Que onda mi razita");
-let btnDo= document.getElementById('btnDo');
-btnDo.addEventListener('click', ()=>{alert,('hi')});
+let btn = document.getElementById('btnDo');
+
+btn.addEventListener('click', () => {alert('yolo')});
