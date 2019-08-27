@@ -1,7 +1,10 @@
 const buttons = document.querySelectorAll('button');
 
 const playnote = event =>{
-    console.log(event.target.datset.note);
+const button = event.target;
+const note =  button.dataset.note;
+console.log('audio' + note);
+
 }
 
 buttons.forEach(
